@@ -16,7 +16,6 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
             const amountToBeReturned = cashGiven.value - billAmount.value;
             calculateChange(amountToBeReturned);
 
-
         } else {
             showMessage("The cash provide should be atleast equal to the bill amount")
         }
@@ -24,21 +23,14 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
         showMessage("Invalid Bill amount ");
     }
 
-    console.log(amountToBeReturned)
 });
-
-
 
 function calculateChange(amountToBeReturned) {
 
     for (var i = 0; i < availableNotes.length; i++) {
-        const numberOfNotes = Math.trunc(
-            amountToBeReturned / availableNotes[i]
-        );
-        //console.log(numberOfNotes)
-        //console.log(availableNotes[i], amountToBeReturned, numberOfNotes)
+        const numberOfNotes = Math.trunc(amountToBeReturned / availableNotes[i]);
         amountToBeReturned = amountToBeReturned % availableNotes[i];
-        noOfNotes[i].innerText = numberOfNotes;
+        noOfNotes[i].innerText = numberOfNotes
     }
 
 }
