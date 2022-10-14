@@ -9,6 +9,16 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+h1 {
+    margin: auto;
+}
+
+.descrpition {
+    font-size: medium;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -39,9 +49,10 @@ body {
 #check-button {
     width: 8rem;
     height: 7vh;
-    padding: 0.5rem;
+    /*padding: 0.5rem;*/
     margin: auto;
     background-color: var(--primary-color);
+    border: 1px solid maroon;
     font-family: Verdana, Geneva;
 }
 
@@ -53,13 +64,10 @@ body {
     border: 1px solid maroon;
 }
 
-.no-of-notes {
+td {
     border: 1px solid maroon;
 }
 
-
-/*
-.change {
-    margin: auto;
-    padding: 1em;
-}*/
+th {
+    border: 1px solid maroon;
+}
