@@ -16,7 +16,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
             const amountToBeReturned = cashGiven.value - billAmount.value;
             calculateChange(amountToBeReturned);
         } else {
-            showMessage("Do you wanna wash plates?");
+            showMessage("The cash provide should be atleast equal to the bill amount");
         }
     } else {
         showMessage("Invalid Bill Amount");

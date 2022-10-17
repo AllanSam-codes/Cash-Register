@@ -49,15 +49,18 @@ h1 {
 
 #check-button {
     width: 8rem;
-    height: 7vh;
+    padding: 0.5rem;
     margin: auto;
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: #fff;
     border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    cursor: pointer;
     font-family: Verdana, Geneva;
 }
 
 .change {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
 }
 
 .change-table {
