@@ -1,6 +1,7 @@
 # Cash Register
 
-## This app is mainly useful for cashier. Helps to maintain his register.
+## This app is mainly useful for cashier ! 
+### which Helps to maintain his register !
 
 
 
